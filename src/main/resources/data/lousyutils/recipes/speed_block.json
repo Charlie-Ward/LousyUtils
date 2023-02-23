@@ -1,14 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "B#B",
+    "BsB",
     "sBs",
-    "B#B"
+    "BsB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:feather"
-    },
     "B": {
       "item": "minecraft:black_concrete"
     },
