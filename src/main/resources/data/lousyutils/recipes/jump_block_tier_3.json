@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "L L",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "L": {
+      "item": "lousyutils:jump_block_tier_2"
+    }
+  },
+  "result": {
+    "item": "lousyutils:jump_block_tier_3",
+    "count": 2
+  },
+  "group": "jump_block"
+}

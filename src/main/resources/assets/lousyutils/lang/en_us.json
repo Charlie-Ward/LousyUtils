@@ -1,0 +1,7 @@
+{
+  "block.lousyutils.jump_block": "Jump Block",
+  "tooltip.lousyutils.jump_block.1": "Stand on this block to get a jump boost",
+  "tooltip.lousyutils.jump_block.2": "Press SHIFT for more info",
+  "block.lousyutils.jump_block_tier_2": "Jump Block (Tier 2)",
+  "block.lousyutils.jump_block_tier_3": "Jump Block (Tier 3)"
+}

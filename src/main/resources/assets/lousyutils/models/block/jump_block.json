@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures":{
+    "down": "lousyutils:block/jump_block_top",
+    "east": "lousyutils:block/jump_block_side",
+    "north": "lousyutils:block/jump_block_side",
+    "particle": "lousyutils:block/jump_block_top",
+    "south": "lousyutils:block/jump_block_side",
+    "up": "lousyutils:block/jump_block_top",
+    "west": "lousyutils:block/jump_block_side"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#B#",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "lousyutils:jump_block",
+    "count": 4
+  },
+  "group": "jump_block"
+}

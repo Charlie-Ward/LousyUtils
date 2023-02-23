@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lousyutils:jump_block",
+    "lousyutils:jump_block_tier_2",
+    "lousyutils:jump_block_tier_3"
+
+  ]
+}

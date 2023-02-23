@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures":{
+    "down": "lousyutils:block/jump_block_tier_3_top",
+    "east": "lousyutils:block/jump_block_tier_3_side",
+    "north": "lousyutils:block/jump_block_tier_3_side",
+    "particle": "lousyutils:block/jump_block_tier_3_top",
+    "south": "lousyutils:block/jump_block_tier_3_side",
+    "up": "lousyutils:block/jump_block_tier_3_top",
+    "west": "lousyutils:block/jump_block_tier_3_side"
+  }
+}
