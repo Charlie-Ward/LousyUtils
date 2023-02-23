@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "sBs",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "lousyutils:speed_block",
+    "count": 4
+  },
+  "group": "speed_block"
+}

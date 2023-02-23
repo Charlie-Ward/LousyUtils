@@ -2,6 +2,9 @@ package info.charlieward.lousyutils.block;
 
 import info.charlieward.lousyutils.LousyUtils;
 import info.charlieward.lousyutils.block.jump.*;
+import info.charlieward.lousyutils.block.speed.SpeedBlock;
+import info.charlieward.lousyutils.block.speed.SpeedBlockTier2;
+import info.charlieward.lousyutils.block.speed.SpeedBlockTier3;
 import info.charlieward.lousyutils.items.ModCreativeModeTab;
 import info.charlieward.lousyutils.items.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -31,6 +34,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> JUMP_BLOCK_TIER_3 = registerBlock("jump_block_tier_3",
             () -> new JumpBlockTier3(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> SPEED_BLOCK = registerBlock("speed_block",
+            () -> new SpeedBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> SPEED_BLOCK_TIER_2 = registerBlock("speed_block_tier_2",
+            () -> new SpeedBlockTier2(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> SPEED_BLOCK_TIER_3 = registerBlock("speed_block_tier_3",
+            () -> new SpeedBlockTier3(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.LOUSY_UTILS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

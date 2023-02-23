@@ -3,7 +3,11 @@
   "values": [
     "lousyutils:jump_block",
     "lousyutils:jump_block_tier_2",
-    "lousyutils:jump_block_tier_3"
+    "lousyutils:jump_block_tier_3",
+
+    "lousyutils:speed_block",
+    "lousyutils:speed_block_tier_2",
+    "lousyutils:speed_block_tier_3"
 
   ]
 }

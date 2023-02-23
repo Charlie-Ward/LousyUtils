@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "L L",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:feather"
+    },
+    "L": {
+      "item": "lousyutils:speed_block_tier_2"
+    },
+    "S": {
+      "item": "minecraft:suagr"
+    }
+  },
+  "result": {
+    "item": "lousyutils:speed_block_tier_3",
+    "count": 2
+  },
+  "group": "speed_block"
+}

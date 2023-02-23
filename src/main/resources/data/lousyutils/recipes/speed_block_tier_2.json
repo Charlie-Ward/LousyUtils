@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iFi",
+    "L L",
+    "iSi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:gold_ingot"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "L": {
+      "item": "lousyutils:speed_block"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "lousyutils:speed_block_tier_2",
+    "count": 2
+  },
+  "group": "speed_block"
+}
