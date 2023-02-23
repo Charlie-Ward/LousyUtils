@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#R#",
+    "#S#",
     "L L",
     "#S#"
   ],
@@ -9,14 +9,11 @@
     "#": {
       "item": "minecraft:diamond"
     },
-    "R": {
-      "item": "minecraft:feather"
-    },
     "L": {
       "item": "lousyutils:speed_block_tier_2"
     },
     "S": {
-      "item": "minecraft:suagr"
+      "item": "minecraft:sugar"
     }
   },
   "result": {
