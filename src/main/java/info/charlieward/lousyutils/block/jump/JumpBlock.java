@@ -30,9 +30,9 @@ public class JumpBlock extends Block {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> components, TooltipFlag flag) {
         if(Screen.hasShiftDown()){
-            components.add(Component.literal("tooltip.lousyutils.jump_block.1").withStyle(ChatFormatting.AQUA));
+            components.add(Component.literal("Stand on this block to get a jump boost").withStyle(ChatFormatting.AQUA));
         } else {
-            components.add(Component.literal("tooltip.lousyutils.jump_block.2").withStyle(ChatFormatting.YELLOW));
+            components.add(Component.literal("Press SHIFT for more info").withStyle(ChatFormatting.YELLOW));
         }
 
         super.appendHoverText(stack, getter, components, flag);
