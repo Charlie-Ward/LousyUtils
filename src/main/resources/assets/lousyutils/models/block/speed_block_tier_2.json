@@ -4,7 +4,7 @@
     "down": "lousyutils:block/block_top_tier_2",
     "east": "lousyutils:block/speed_block_tier_2_side",
     "north": "lousyutils:block/block_top_tier_2",
-    "particle": "lousyutils:block/speed_block_tier_2_top",
+    "particle": "lousyutils:block/block_top_tier_3",
     "south": "lousyutils:block/speed_block_tier_2_side",
     "up": "lousyutils:block/block_top_tier_2",
     "west": "lousyutils:block/speed_block_tier_2_side"

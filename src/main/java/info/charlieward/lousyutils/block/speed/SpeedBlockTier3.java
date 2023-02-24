@@ -26,7 +26,7 @@ public class SpeedBlockTier3 extends Block {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> components, TooltipFlag flag) {
         if(Screen.hasShiftDown()){
-            components.add(Component.literal("Stand on this block to a MASSIVE jump boost").withStyle(ChatFormatting.AQUA));
+            components.add(Component.literal("Stand on this block to a MASSIVE speed boost").withStyle(ChatFormatting.AQUA));
         } else {
             components.add(Component.literal("Press SHIFT for more info").withStyle(ChatFormatting.YELLOW));
         }
@@ -37,7 +37,7 @@ public class SpeedBlockTier3 extends Block {
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity){
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 2));
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2));
         }
 
         super.stepOn(level, pos, state, entity);

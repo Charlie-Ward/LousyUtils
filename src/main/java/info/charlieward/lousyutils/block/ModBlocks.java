@@ -51,7 +51,7 @@ public class ModBlocks {
             () -> new SpeedBlockTier3(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.LOUSY_UTILS_TAB);
 
-    public static final RegistryObject<Block> ABSORPTION_BLOCK = registerBlock("absorption_block.json",
+    public static final RegistryObject<Block> ABSORPTION_BLOCK = registerBlock("absorption_block",
             () -> new AbsorptionBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.LOUSY_UTILS_TAB);
 
