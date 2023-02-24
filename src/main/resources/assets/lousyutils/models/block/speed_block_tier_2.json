@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:block/cube",
   "textures":{
-    "down": "lousyutils:block/speed_block_tier_2_top",
+    "down": "lousyutils:block/block_top_tier_2",
     "east": "lousyutils:block/speed_block_tier_2_side",
-    "north": "lousyutils:block/speed_block_tier_2_side",
+    "north": "lousyutils:block/block_top_tier_2",
     "particle": "lousyutils:block/speed_block_tier_2_top",
     "south": "lousyutils:block/speed_block_tier_2_side",
-    "up": "lousyutils:block/speed_block_tier_2_top",
+    "up": "lousyutils:block/block_top_tier_2",
     "west": "lousyutils:block/speed_block_tier_2_side"
   }
 }
