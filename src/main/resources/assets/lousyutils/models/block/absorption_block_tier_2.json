@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures":{
+    "down": "lousyutils:block/block_top_tier_2",
+    "east": "lousyutils:block/absorption_block_tier_2_side",
+    "north": "lousyutils:block/absorption_block_tier_2_side",
+    "particle": "lousyutils:block/block_top_tier_2",
+    "south": "lousyutils:block/absorption_block_tier_2_side",
+    "up": "lousyutils:block/block_top_tier_2",
+    "west": "lousyutils:block/absorption_block_tier_2_side"
+  }
+}

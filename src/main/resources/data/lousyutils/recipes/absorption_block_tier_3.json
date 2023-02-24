@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "L L",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:shield"
+    },
+    "L": {
+      "item": "lousyutils:absorption_block_tier_2"
+    }
+  },
+  "result": {
+    "item": "lousyutils:absorption_block_tier_3",
+    "count": 2
+  },
+  "group": "absorption_block"
+}

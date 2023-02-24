@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#B#",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:shield"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "lousyutils:absorption_block",
+    "count": 4
+  },
+  "group": "absorption_block"
+}

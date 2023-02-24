@@ -1,6 +1,9 @@
 package info.charlieward.lousyutils.block;
 
 import info.charlieward.lousyutils.LousyUtils;
+import info.charlieward.lousyutils.block.absorption.AbsorptionBlock;
+import info.charlieward.lousyutils.block.absorption.AbsorptionBlockTier2;
+import info.charlieward.lousyutils.block.absorption.AbsorptionBlockTier3;
 import info.charlieward.lousyutils.block.jump.*;
 import info.charlieward.lousyutils.block.speed.SpeedBlock;
 import info.charlieward.lousyutils.block.speed.SpeedBlockTier2;
@@ -46,6 +49,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SPEED_BLOCK_TIER_3 = registerBlock("speed_block_tier_3",
             () -> new SpeedBlockTier3(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> ABSORPTION_BLOCK = registerBlock("absorption_block.json",
+            () -> new AbsorptionBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> ABSORPTION_BLOCK_TIER_2 = registerBlock("absorption_block_tier_2",
+            () -> new AbsorptionBlockTier2(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.LOUSY_UTILS_TAB);
+
+    public static final RegistryObject<Block> ABSORPTION_BLOCK_TIER_3 = registerBlock("absorption_block_tier_3",
+            () -> new AbsorptionBlockTier3(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.LOUSY_UTILS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

@@ -5,5 +5,9 @@
 
   "block.lousyutils.speed_block": "Speed Block",
   "block.lousyutils.speed_block_tier_2": "Speed Block (Tier 2)",
-  "block.lousyutils.speed_block_tier_3": "Speed Block (Tier 3)"
+  "block.lousyutils.speed_block_tier_3": "Speed Block (Tier 3)",
+
+  "block.lousyutils.absorption_block": "Absorption Block",
+  "block.lousyutils.absorption_block_tier_2": "Absorption Block (Tier 2)",
+  "block.lousyutils.absorption_block_tier_3": "Absorption Block (Tier 3)"
 }

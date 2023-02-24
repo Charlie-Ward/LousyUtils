@@ -7,7 +7,11 @@
 
     "lousyutils:speed_block",
     "lousyutils:speed_block_tier_2",
-    "lousyutils:speed_block_tier_3"
+    "lousyutils:speed_block_tier_3",
+
+    "lousyutils:absorption_block",
+    "lousyutils:absorption_block_tier_2",
+    "lousyutils:absorption_block_tier_3"
 
   ]
 }
